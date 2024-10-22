@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar{
+  display:none;
+}
+@media only screen and (max-width:900px){
+  .left-sideabar{
+    width:0%;;
+    display:none;
+  }
+  .display-box{
+   width:100%;
+  }
+}
